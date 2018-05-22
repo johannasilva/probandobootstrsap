@@ -1,0 +1,162 @@
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import "https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:300,400,500,700')";
+
+
+$textos: roboto, sans-serif;
+$titulos: "roboto slab", Serif;
+
+body{
+	font-family:$textos;
+	padding-top: 50px;
+
+}
+
+
+h1, h2, h3, h4, h5, h6{
+	font-family: $titulos;
+	font-weight: 700;
+}
+
+
+body, html{
+	height: 100%;
+}
+/*
+header{
+	height: 100%;
+	background: yellow;
+	background: url("https://www.todopaisajes.com/1440x900/paisaje-natural-en-el-campo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	background-position: center;
+	background-attachment:fixed;
+
+}
+*/
+
+h1, h3{
+	font-size: 100px;
+	color: white;
+	text-shadow: 5px 5px 0 rgba(0,0,0,0.8);
+	}
+
+h3{
+	font-size: 40px;
+
+}
+section{
+	padding: 60px 0;
+
+	&#curso{
+		.destacado{
+			font-size: 18px;
+			font-weight: 300;
+			line-height: 25px;
+		}
+
+	}
+	&#frase{
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f85032+0,f16f5c+50,f6290c+51,f02f17+71,e73827+100;Red+Gloss+%231 */
+
+	}
+}
+
+.social{
+	display: flex;
+	list-style: none;
+	padding: 0;
+
+	li{
+		padding: 10px;
+		a{
+			color: #AAA;
+			font-size: 30px;
+			transition: .5s;
+			display: inline-block;
+			&:hover{
+				transform: scale(1.3);
+
+			}
+		}
+	}
+}
+
+nav{
+	&.navbar{
+		margin-bottom: 0;
+
+	}
+
+}
+
+
+
+.carousel-fade {
+    .carousel-inner {
+        .item {
+            transition-property: opacity;
+        }
+        
+        .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+
+header{
+	position: relative;
+	.wrapper-texto{
+		position: absolute;
+		top:0;
+		widht: 100%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
